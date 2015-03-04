@@ -32,7 +32,7 @@ public class NonRecursiveBinarySearch{
 			
 		}
 		
-		System.out.println(position);
+		System.out.println("the first occurrence is at index " +position);
 	}
 
 		 public static void main (String[] args){

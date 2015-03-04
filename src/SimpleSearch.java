@@ -14,7 +14,7 @@ public class SimpleSearch {
         
       public SimpleSearch(){
          for (int i=0; i<arr.length; i++){
-        	 if(arr[0]<arr[middle])
+        	 if(arr[2]<arr[middle])
         		 high=middle-1;
         	 else 
         		 low = middle+1;
@@ -23,7 +23,7 @@ public class SimpleSearch {
         	 position = middle;
         	 
          }
-         System.out.println("the first occurrence is at position "+ position);
+         System.out.println("the first occurrence is at index "+ (position-1));
       }
     
 public static void main (String[] args){
