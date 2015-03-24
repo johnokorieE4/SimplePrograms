@@ -9,26 +9,21 @@ public class MainClass {
 		
 		Scanner input = new Scanner(System.in);
 		int answer = input.nextInt();
-		
-		
-		switch (answer){
-		case 1: 
-			AlphabetCombination ac = new AlphabetCombination();
-			break;
-			
-		case 2:
-			SimpleSearch ss = new SimpleSearch();
-			break;
-		case 3:
-			NonRecursiveBinarySearch nonrecursive = new NonRecursiveBinarySearch();
-			break;
-		case 4:
-
-			System.out.println("the program has ended");
-			break;
-		}
-		
-		
-	}
-
+	
+	    switch(answer){
+	    case 1:
+	    	new AlphabetCombination();
+	    	break;
+	    case 2:
+	    	NonRecursiveBinarySearch nonRecursive = new  NonRecursiveBinarySearch();
+	    	break;
+	    case 3:
+	    	SimpleSearch simple = new SimpleSearch();
+	    	break;
+	    case 4:
+	    	System.out.println("the program has ended");
+	    	
+	    }  	
+	    
+   }
 }
